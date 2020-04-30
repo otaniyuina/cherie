@@ -1,0 +1,248 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.top-wrapper{
+    background-image:url(https://raw.githubusercontent.com/otaniyuina/cherie/master/2738619_s.jpg);
+    background-size:cover;
+    padding:120px 0px 300px 0px;
+
+
+
+
+}
+.container{
+    width: 1300px;
+    margin:0 auto;
+}
+.top-wrapper h1{
+    font-size:57px;
+    opacity:0.6;
+
+
+
+}
+.top-wrapper p{
+    opacity:0.6;
+
+
+
+}
+header{
+    height:65px;
+    width:100%;
+    background-color:#FFF1ED;
+    position:fixed;
+    top:0;
+    z-index:10;
+
+}
+.logo{
+    height: 65px;
+
+}
+.header-right{
+    float: right;
+    background-color:rgba(145, 141, 146, 0.736);
+    transition: all 0.5s;
+}
+.header-right:hover{
+    background-color:rgba(145, 141, 146, 1);
+
+}
+.header-right a{
+    height :65px;
+    padding: 0 25px;
+    color:white;
+    line-height :65px;
+    display:block;
+    text-decoration: none;
+
+
+}
+.header-left{
+    float:left;
+}
+.menu-wrapper{
+    background-color: #dfe7ee;
+    text-align: center;
+}
+.heading{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #163858;
+
+}
+.heading h2{
+    font-size:30px;
+}
+.menu p{
+    color: #163858;
+    font-weight: bold;
+    font-size: 20px;
+
+
+
+
+}
+.menu{
+    float:left;
+    width: 50%;
+    padding-bottom: 60px;
+
+}
+.menu-size{
+    width:400px;
+    border-radius: 10px;
+}
+.clear{
+    clear:left;
+}
+
+}
+.clear{
+    clear:left;
+}
+.menu h1{
+    color: #163858;
+    font-size: 25px;
+
+}
+span{
+    font-size:13px;
+}
+.menu a{
+    color: #163858;
+    border:1px solid #163858 ;
+    border-radius: 20px;
+    background-color:rgba(255,255,255,1);
+    padding:7px 10px 7px 13px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.5s;
+
+}
+.menu a:hover{
+    opacity:0.5;
+
+}
+.course-wrapper{
+    padding-bottom: 80px;
+    text-align: center;
+    background-image: url(file:///Users/otaniyuina/Downloads/%E3%82%A8%E3%82%B9%E3%83%86%E3%83%98%E3%82%99%E3%83%83%E3%83%88%E3%82%99%E3%81%AE%E3%82%B3%E3%83%92%E3%82%9A%E3%83%BC.jpg);
+    background-size: cover;
+}
+.btn{
+    text-decoration: none;
+    transition: all 0.5s;
+    background-color:rgba(184,134,11,0.7);
+    border-radius: 40px;
+    padding:20px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    width:180px;
+    line-height:45px;
+    display:inline-block;
+    margin:100px 20px;
+
+
+}
+.btn:hover{
+    background-color:rgba(184,134,11,1);
+
+}
+.voice-wrapper{
+    background-color:#dfe7ee;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.voice{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color:#163858 ;
+
+}
+.customers{
+    display:flex;
+
+}
+.customer-img{
+    flex:auto;
+
+}
+.customer img{
+    width:300px;
+    height: 300px;
+    border-radius: 8px;
+
+}
+.text{
+    width:80%;
+    display:inline-block;
+    color:#163858 ;
+    font-size: 20px;
+
+}
+.customer h4{
+    color:#163858 ;
+
+}
+.text-title{
+    color:#163858 ;
+    font-size: 25px;
+    font-weight: bold;
+    display:inline-block;
+    border-bottom: 3px solid white;
+
+
+}
+.sns-wrapper{
+    text-align: center;
+    padding-bottom: 80px;
+    background-image: url(https://raw.githubusercontent.com/otaniyuina/cherie/master/46807d81-39a5-4267-a214-91228f14a815.jpg);
+    background-size: cover;
+
+}
+.sns-btn{
+    text-decoration: none;
+    transition: all 0.5s;
+    background-color:rgba(184,134,11,0.8);
+    border-radius: 40px;
+    padding:15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    width:180px;
+    line-height:45px;
+    display:inline-block;
+    margin:200px 50px;
+
+
+}
+.sns-btn:hover{
+    background-color:rgba(184,134,11,1);
+
+}
+footer{
+    background-color:#dfe7ee;
+    color:#163858 ;
+    padding:40px;
+    border-bottom: 5px solid #163858;
+
+}
+.footer-list{
+    float: right;
+}
+.footer-list a{
+    padding-bottom: 20px;
+    color:#163858;
+    display:block;
+    text-decoration: none;
+}
+.footer-logo{
+    width:140px;
+    height: 100px;
+}
