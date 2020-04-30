@@ -12,10 +12,7 @@ body{
 
 
 }
-.container{
-    width: 1300px;
-    margin:0 auto;
-}
+
 .top-wrapper h1{
     font-size:57px;
     opacity:0.6;
@@ -46,6 +43,7 @@ header{
     float: right;
     background-color:rgba(145, 141, 146, 0.736);
     transition: all 0.5s;
+    margin-right:17px;
 }
 .header-right:hover{
     background-color:rgba(145, 141, 146, 1);
